@@ -10,16 +10,12 @@
 </head>
 <body>
     <header class="header">
-        <!-- Espacio negro sobre el video con opacidad -->
         <div class="header-overlay"></div>
     
         <div class="header-content">
-            <!-- Logo en la parte izquierda -->
             <div class="header-logo">
                 <img src="/media/SBBG_LOGO.png" alt="Logo">
             </div>
-    
-            <!-- Menú de navegación -->
             <nav class="header-nav">
                 <a href="#nosotros" class="nav-item" onclick="scrollToSection(event, 'nosotros')">Nosotros</a>
                 <a href="#servicios" class="nav-item" onclick="scrollToSection(event, 'servicios')">Servicios</a>
@@ -27,7 +23,7 @@
             </nav>
             <script>
                 function scrollToSection(event, sectionId) {
-                    event.preventDefault();  // Previene que el enlace cambie la URL
+                    event.preventDefault();  // no dif url
                     const section = document.getElementById(sectionId);
                     if (section) {
                         section.scrollIntoView({ behavior: 'smooth' });
@@ -35,21 +31,20 @@
                 }
             </script>
     
-            <!-- Botón de contacto -->
             <div class="contact-btn">
                 <a href="https://www.linkedin.com/company/strategic-branding-business-growth/" target="_blank">Contáctanos</a>
             </div>
         </div>
     </header>
-    <!-- Sección del video -->
+    <!-- video -->
     <div class="video-container">
         <video autoplay loop muted playsinline>
             <source src="media/0129.mp4" type="video/mp4">
-            Tu navegador no soporta videos en HTML5.
+            Tu navegador no soporta videos en HTML5
         </video>
     </div>
 
-    <!-- Sección "Quiénes somos" -->
+    <!-- Quiénes somos -->
 <div class="about-section" id="nosotros">
         <div class="about-text">
             <h2>Quiénes somos</h2>
@@ -115,13 +110,13 @@
     <img src="media/25EXPERIENCIA.png" alt="25 Experiencia" class="banner-img right">
     <img src="media/FONDO-TEAL.png" alt="Banner Teal">
 </div>
-<!-- Nueva Sección de Clientes -->
+<!-- Clientes -->
 <div class="clients-section" id="experiencia">
     <div class="clients-header">
         <h2>CLIENTES</h2>
     </div>
     <div class="clients-container">
-        <!-- Fila 1: Nestlé y relacionados -->
+        <!-- Fila 1 -->
         <div class="client left">
             <div class="client-title">Nestlé</div>
             <div class="client-desc">
@@ -185,11 +180,10 @@
             <div class="client-title">Getac</div>
             <div class="client-desc">Servicios: Campañas publicitarias, diseño gráfico.</div>
 
-            <div class="client-title">Meat Me</div>
-            <div class="client-desc">Servicios: Desarrollo de productos, branding completo (uniformes, camiones, tiendas), diseño gráfico, ilustración y animación para campañas publicitarias.</div>
+            
         </div>
 
-        <!-- Fila 2: Kerry Group y relacionados -->
+        <!-- Fila 2 -->
         <div class="client right">
             <div class="client-title">Kerry Group</div>
             <div class="client-desc">
@@ -246,6 +240,9 @@
 
             <div class="client-title">PNUD</div>
             <div class="client-desc">Servicios: Diseño de logotipo, website y manual de identidad.</div>
+
+            <div class="client-title">Meat Me</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, branding completo (uniformes, camiones, tiendas), diseño gráfico, ilustración y animación para campañas publicitarias.</div>
         </div>
     </div>
 </div>
@@ -305,7 +302,7 @@
         </div>
     </div>
 </div>
-<!-- Sección negra debajo del gradient -->
+<!-- final -->
 <div class="contact-section">
     <p><span>Háblanos de tu marca, agenda</span><br><span>una llamada aquí</span></p>
     <a href="https://www.linkedin.com/company/strategic-branding-business-growth/" target="_blank">
