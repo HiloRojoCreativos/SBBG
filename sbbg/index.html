@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBBG</title>
+    <link rel="icon" type="image/png" href="/media/sbbg_logo_2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Espacio negro sobre el video con opacidad -->
+        <div class="header-overlay"></div>
+    
+        <div class="header-content">
+            <!-- Logo en la parte izquierda -->
+            <div class="header-logo">
+                <img src="/media/SBBG_LOGO.png" alt="Logo">
+            </div>
+    
+            <!-- Menú de navegación -->
+            <nav class="header-nav">
+                <a href="#nosotros" class="nav-item" onclick="scrollToSection(event, 'nosotros')">Nosotros</a>
+                <a href="#servicios" class="nav-item" onclick="scrollToSection(event, 'servicios')">Servicios</a>
+                <a href="#experiencia" class="nav-item" onclick="scrollToSection(event, 'experiencia')">Experiencia</a>
+            </nav>
+            <script>
+                function scrollToSection(event, sectionId) {
+                    event.preventDefault();  // Previene que el enlace cambie la URL
+                    const section = document.getElementById(sectionId);
+                    if (section) {
+                        section.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }
+            </script>
+    
+            <!-- Botón de contacto -->
+            <div class="contact-btn">
+                <a href="https://www.linkedin.com/company/strategic-branding-business-growth/" target="_blank">Contáctanos</a>
+            </div>
+        </div>
+    </header>
+    <!-- Sección del video -->
+    <div class="video-container">
+        <video autoplay loop muted playsinline>
+            <source src="media/0129.mp4" type="video/mp4">
+            Tu navegador no soporta videos en HTML5.
+        </video>
+    </div>
+
+    <!-- Sección "Quiénes somos" -->
+<div class="about-section" id="nosotros">
+        <div class="about-text">
+            <h2>Quiénes somos</h2>
+            <p class="large-text">
+                Somos un equipo de<br>
+                especialistas en hacer crecer<br>
+                negocios con estrategias<br>
+                personalizadas, optimizando<br>
+                cada detalle desde la<br>
+                creatividad hasta la ejecución.
+            </p>
+        </div>
+        <div class="about-highlights">
+            <div class="highlight">
+                <img src="media/PALOMITAS.png" alt="Check">
+                <p>CRECIMIENTO EN VENTAS Y PRESENCIA DIGITAL</p>
+            </div>
+            <div class="highlight">
+                <img src="media/PALOMITAS.png" alt="Check">
+                <p>PRODUCTOS INNOVADORES Y CAMPAÑAS EXITOSAS</p>
+            </div>
+            <div class="highlight">
+                <img src="media/PALOMITAS.png" alt="Check">
+                <p>ESTRATEGIAS ADAPTADAS A MERCADOS COMPETITIVOS</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conoce a nuestro equipo -->
+    <div class="team-section">
+        <h2>Conoce a nuestro equipo de expertas</h2>
+        <div class="team-images">
+            <div class="team-member">
+                <img src="media/LUISA.png" alt="Luisa Cuéllar">
+                <p>Luisa Cuéllar</p>
+                <p class="detail">Branding Strategy<br>& Creative Director</p>
+            </div>
+            <div class="team-member">
+                <img src="media/ALEJANDRA.png" alt="Alejandra Salinas">
+                <p>Alejandra Salinas</p>
+                <p class="detail">Business Growth<br>& Product Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="media/CECY.png" alt="Cecilia Arregui">
+                <p>Cecilia Arregui</p>
+                <p class="detail">Graphic Design<br>& Visual Strategy</p>
+            </div>
+            <div class="team-member">
+                <img src="media/LORENA.png" alt="Lorena Sánchez">
+                <p>Lorena Sánchez</p>
+                <p class="detail">PR Management<br>Strategic Brand Positioning</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<div class="banner-bottom">
+    <div class="banner-text">
+        <p>Nuestro impacto</p>
+    </div>
+    <img src="media/150PROYECTOS.png" alt="150 Proyectos" class="banner-img left">
+    <img src="media/RETENCION.png" alt="Retención" class="banner-img center">
+    <img src="media/25EXPERIENCIA.png" alt="25 Experiencia" class="banner-img right">
+    <img src="media/FONDO-TEAL.png" alt="Banner Teal">
+</div>
+<!-- Nueva Sección de Clientes -->
+<div class="clients-section" id="experiencia">
+    <div class="clients-header">
+        <h2>CLIENTES</h2>
+    </div>
+    <div class="clients-container">
+        <!-- Fila 1: Nestlé y relacionados -->
+        <div class="client left">
+            <div class="client-title">Nestlé</div>
+            <div class="client-desc">
+                Servicios: Desarrollo de productos, rediseño de productos (Cajetoso), diseño gráfico de materiales POP (Nestea, Nesquick), manuales de ventas, campañas publicitarias, dirección creativa para diversas divisiones (Helados, Chocolates, Refrigerados, Nescafé), Coordinación y manejo de cuentas, negociación con proveedores y compras especializadas; supervisión de diseño y producción de empaque, materiales POP, piezas para trade marketing, kits de lanzamiento.
+            </div>
+
+            <div class="client-title">Pepsico</div>
+            <div class="client-desc">
+                Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta, campañas publicitarias, diseño gráfico para marcas como Jumex y Lipton.
+            </div>
+
+            <div class="client-title">Hershey’s</div>
+            <div class="client-desc">
+                Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta, campañas publicitarias, diseño de empaque y materiales promocionales (Ice Breakers Ice Cubes y Jolly Rancher).
+            </div>
+
+            <div class="client-title">McCain</div>
+            <div class="client-desc">
+                Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta, campañas publicitarias, diseño de empaque y materiales para distribuidores.
+            </div>
+
+            <div class="client-title">Volkswagen</div>
+            <div class="client-desc">Servicios: Capacitación en liderazgo.</div>
+
+            <div class="client-title">Gerber</div>
+            <div class="client-desc">Servicios: Ilustraciones y diseño de empaque.</div>
+
+            <div class="client-title">Del Fuerte</div>
+            <div class="client-desc">Estrategias de venta, ilustraciones y diseño de empaque.</div>
+
+            <div class="client-title">BBVA Bancomer</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta.</div>
+
+            <div class="client-title">Bizarro Joyerías</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta.</div>
+
+            <div class="client-title">Hotel Huayacán</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta.</div>
+
+            <div class="client-title">La Buena Vibra</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta, contenidos y gestión de redes sociales y presencia digital.</div>
+
+            <div class="client-title">Holisticare</div>
+            <div class="client-desc">Servicios: Estudios de mercado, diseño de logotipo y manual de identidad.</div>
+
+            <div class="client-title">Laboratorios Grossman</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias de venta para distribuidores, materiales para visitadores médicos.</div>
+
+            <div class="client-title">Gelcaps</div>
+            <div class="client-desc">Servicios: Copywriting, estrategias de venta, campañas publicitarias, diseño de empaques.</div>
+
+            <div class="client-title">Laboratorios Valeant</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias de venta para distribuidores, materiales para visitadores médicos.</div>
+
+            <div class="client-title">FeetGlo</div>
+            <div class="client-desc">Servicios: Estudios de mercado, ilustraciones, diseño de logotipo y manual de identidad.</div>
+
+            <div class="client-title">Mom to Mom</div>
+            <div class="client-desc">Servicios: Estudios de mercado, ilustraciones, diseño de logotipo y manual de identidad.</div>
+
+            <div class="client-title">Getac</div>
+            <div class="client-desc">Servicios: Campañas publicitarias, diseño gráfico.</div>
+
+            <div class="client-title">Meat Me</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, branding completo (uniformes, camiones, tiendas), diseño gráfico, ilustración y animación para campañas publicitarias.</div>
+        </div>
+
+        <!-- Fila 2: Kerry Group y relacionados -->
+        <div class="client right">
+            <div class="client-title">Kerry Group</div>
+            <div class="client-desc">
+                Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta, campañas publicitarias, diseño de empaque y materiales promocionales.
+            </div>
+
+            <div class="client-title">GBM+</div>
+            <div class="client-desc">Servicios: Estrategias y contenido para redes sociales, campañas publicitarias.</div>
+
+            <div class="client-title">Duolingo</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias y contenido para redes sociales, campañas publicitarias.</div>
+
+            <div class="client-title">Scribe</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias de venta.</div>
+
+            <div class="client-title">ExxonMobil</div>
+            <div class="client-desc">Servicios: Traducción corporativa, diseño de manuales de capacitación, hojas de venta, diseño de materiales para distribuidores.</div>
+
+            <div class="client-title">Kir</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias de venta, ilustraciones, diseño de empaques.</div>
+
+            <div class="client-title">Ariel</div>
+            <div class="client-desc">Servicios: Estrategias de venta, ilustraciones, diseño de empaques.</div>
+
+            <div class="client-title">Shely Group</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, estudios de mercado, estrategias de venta, campañas publicitarias, diseño, fotografía e ilustraciones.</div>
+
+            <div class="client-title">Promobor</div>
+            <div class="client-desc">Servicios: Desarrollo de productos, estudios de mercado, diseño de logotipo y manual de identidad.</div>
+
+            <div class="client-title">Casa d’Italia</div>
+            <div class="client-desc">Servicios: Estudios de mercado, ilustraciones, diseño de logotipo y manual de identidad.</div>
+
+            <div class="client-title">La Taberna del León</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias de venta, diseño de logotipo y manual de identidad.</div>
+
+            <div class="client-title">Nine West, Westies, Camper</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias de venta, diseño de promociones, manejo de ecommerce y redes sociales.</div>
+
+            <div class="client-title">Anne Klein, Enzo Angiolini, Nina Shoes</div>
+            <div class="client-desc">Servicios: Estrategias de venta, diseño de promociones, manejo de ecommerce.</div>
+
+            <div class="client-title">Biosphera</div>
+            <div class="client-desc">Servicios: Estudios de mercado, estrategias de venta, diseño de logotipo y manual de identidad.</div>
+
+            <div class="client-title">Somos Agua / Sura</div>
+            <div class="client-desc">Servicios: Ilustración y animación de videos.</div>
+
+            <div class="client-title">Ayuntamiento de Tepoztlán</div>
+            <div class="client-desc">Servicios: Desarrollo y gestión de comunicación interna y redes sociales.</div>
+
+            <div class="client-title">SEDECO</div>
+            <div class="client-desc">Servicios: Diseño e ilustraciones para manual de servicios.</div>
+
+            <div class="client-title">PNUD</div>
+            <div class="client-desc">Servicios: Diseño de logotipo, website y manual de identidad.</div>
+        </div>
+    </div>
+</div>
+<div class="gradient-section" id="servicios">
+    <p>Nuestros Servicios</p>
+    <div class="services-container" >
+        <!-- Crecimiento / Business -->
+        <div class="service">
+            <div class="service-title crecimiento">Crecimiento / Business</div>
+            <div class="service-desc">
+                Estrategias de venta<br>
+                Estudios de mercado y<br>
+                competencia<br><span></span>
+                Comunicación interna y<br>
+                capacitación de equipos<br><span></span>
+                Relaciones públicas y<br>
+                posicionamiento de marca en<br>
+                medios
+            </div>
+        </div>
+
+        <!-- Estrategia / Branding -->
+        <div class="service">
+            <div class="service-title branding">Estrategia / Branding</div>
+            <div class="service-desc">
+                Identidad corporativa<br><span></span>
+                Estrategias de branding<br><span></span>
+                Copywriting en inglés y español<br><span></span>
+                Gestión estratégica de redes<br>
+                sociales y presencia digital
+            </div>
+        </div>
+
+        <!-- Innovación / Materiales -->
+        <div class="service">
+            <div class="service-title innovacion">Innovación / Materiales</div>
+            <div class="service-desc">
+                Desarrollo de productos<br><span></span>
+                Materiales impresos y<br>
+                packaging<br><span></span>
+                Ilustración y gráficos<br>
+                personalizados
+            </div>
+        </div>
+
+        <!-- Adaptación / Personalización -->
+        <div class="service">
+            <div class="service-title adaptacion">Adaptación / Personalización</div>
+            <div class="service-desc">
+                Campañas publicitarias para<br>
+                digital y print<br><span></span>
+                Diseño de experiencia de usuario<br>
+                centrada en el cliente<br><span></span>
+                Customización de branding para<br>
+                piezas impresas y digitales
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Sección negra debajo del gradient -->
+<div class="contact-section">
+    <p><span>Háblanos de tu marca, agenda</span><br><span>una llamada aquí</span></p>
+    <a href="https://www.linkedin.com/company/strategic-branding-business-growth/" target="_blank">
+        <img src="/media/linkedinlogopng.png" alt="LinkedIn Logo" class="linkedin-logo">
+    </a>
+</div>
+</html>
