@@ -484,3 +484,129 @@ body {
 .contact-btn a:hover {
     background-color: #268D6D; /* Cambio de color al pasar el mouse */
 }
+
+@media (max-width: 768px) {
+    /* Sección del video */
+    .video-container {
+        height: 70vh; /* Reducimos la altura para móviles */
+    }
+
+    .video-container video {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Sección "Quiénes somos" */
+    .about-section {
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .about-text, .about-highlights {
+        max-width: 100%;
+    }
+
+    .highlight {
+        justify-content: center;
+    }
+
+    /* Sección "Conoce a nuestro equipo" */
+    .team-section {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .team-section h2 {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .team-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .team-member img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Banner inferior */
+    .banner-bottom {
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .banner-text {
+        font-size: 18px;
+        top: 10px;
+    }
+
+    .banner-img {
+        position: relative;
+        top: auto;
+    }
+
+    .left, .center, .right {
+        position: static;
+        margin: 10px auto;
+        display: block;
+    }
+
+    /* Sección de clientes */
+    .clients-header h2 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .clients-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .client {
+        width: 100%;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .client.left, .client.right {
+        margin: 0 auto;
+    }
+
+    /* Sección de servicios */
+    .gradient-section {
+        padding: 40px 0;
+    }
+
+    .gradient-section p {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .services-container {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .service {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .service-title {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
